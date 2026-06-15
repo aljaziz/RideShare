@@ -1,6 +1,4 @@
-# "Microservices with Go" course project
-
-This is the starter code for the "Microservices with Go" project.
+# RideShare project
 
 ## Project overview
 
