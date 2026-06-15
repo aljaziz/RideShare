@@ -1,3 +1,3 @@
-module aljaziz/Ride-Share
+module aljaziz/RideShare
 
 go 1.26.1
