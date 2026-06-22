@@ -9,3 +9,8 @@ generate-proto:
 		--go_out=$(GO_OUT) \
 		--go-grpc_out=$(GO_OUT) \
 		$(PROTO_SRC)
+
+
+.PHONY: create-service
+create-service:
+	@go run ./tools/create_service.go -name $(filter-out $@,$(MAKECMDGOALS))
